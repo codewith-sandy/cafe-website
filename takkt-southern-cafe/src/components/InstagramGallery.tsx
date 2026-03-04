@@ -21,7 +21,7 @@ const instagramPosts = [
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1509365390695-33aee754301f?w=400&h=400&fit=crop",
     alt: "Freshly baked pastries",
   },
   {

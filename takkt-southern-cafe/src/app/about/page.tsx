@@ -141,7 +141,7 @@ export default function AboutPage() {
                 </div>
                 <div className="relative h-64 rounded-2xl overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=350&fit=crop"
+                    src="https://images.unsplash.com/photo-1509365390695-33aee754301f?w=400&h=350&fit=crop"
                     alt="Fresh pastries"
                     fill
                     className="object-cover"
