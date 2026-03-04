@@ -1,5 +1,5 @@
 /* ============================================
-   Home Page — TAKKT Southern Cafe
+   Home Page — Brew & Bean Cafe
    Hero, Featured, Testimonials, Instagram, CTA
    ============================================ */
 
@@ -134,7 +134,7 @@ export default function Home() {
                 <div className="relative h-[500px] rounded-3xl overflow-hidden">
                   <Image
                     src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=800&h=600&fit=crop"
-                    alt="TAKKT Southern Cafe cozy interior"
+                    alt="Brew & Bean Cafe cozy interior"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -163,9 +163,9 @@ export default function Home() {
                 Served with Warmth
               </h2>
               <p className="text-dark-soft/70 leading-relaxed mb-6">
-                TAKKT Southern Cafe was born from a simple belief — that great food, exceptional
+                Brew & Bean Cafe was born from a simple belief — that great food, exceptional
                 coffee, and genuine hospitality can turn ordinary moments into extraordinary
-                memories. Nestled in the heart of Vanagaram, Chennai, we&apos;ve created a space
+                memories. Nestled in the heart of the city, we&apos;ve created a space
                 where every cup tells a story.
               </p>
               <p className="text-dark-soft/70 leading-relaxed mb-8">
@@ -224,8 +224,8 @@ export default function Home() {
               <span className="text-beige-light">Something Special?</span>
             </h2>
             <p className="text-white/70 text-lg mb-10 max-w-2xl mx-auto">
-              Reserve your table today and discover why TAKKT Southern Cafe is
-              Chennai&apos;s most beloved neighborhood cafe.
+              Reserve your table today and discover why Brew & Bean Cafe is
+              the city&apos;s most beloved neighborhood cafe.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/reservation" className="btn-primary text-base px-10 py-4">
@@ -250,7 +250,7 @@ export default function Home() {
               Follow Our Journey
             </p>
             <h2 className="font-heading text-3xl md:text-4xl text-espresso font-bold mb-2">
-              @takktsoutherncafe
+              @brewandbeancafe
             </h2>
             <p className="text-dark-soft/60 text-sm">
               Tag us in your photos for a chance to be featured!

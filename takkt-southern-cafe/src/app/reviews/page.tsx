@@ -1,6 +1,6 @@
 /* ============================================
    Reviews Page — Google-Style Layout
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 import type { Metadata } from "next";
@@ -11,7 +11,7 @@ import { reviews, ratingStats } from "@/data/reviews";
 export const metadata: Metadata = {
   title: "Reviews",
   description:
-    "See what 406+ guests say about TAKKT Southern Cafe. 4.4-star rated café in Vanagaram, Chennai — read real reviews about our coffee, food, and ambience.",
+    "See what 406+ guests say about Brew & Bean Cafe. 4.4-star rated café — read real reviews about our coffee, food, and ambience.",
 };
 
 export default function ReviewsPage() {
@@ -77,7 +77,7 @@ export default function ReviewsPage() {
                   </div>
                   <p className="text-dark-soft/50 text-sm">
                     Our guests consistently rate us one of the best cafes in
-                    Vanagaram & Ambattur, Chennai.
+                    MG Road & Indiranagar, Bangalore.
                   </p>
                 </div>
 
@@ -129,7 +129,7 @@ export default function ReviewsPage() {
               others discover their new favorite cafe.
             </p>
             <a
-              href="https://g.co/kgs/takktsoutherncafe"
+              href="https://g.co/kgs/brewandbeancafe"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"

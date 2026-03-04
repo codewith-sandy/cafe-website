@@ -1,6 +1,6 @@
 /* ============================================
    Cart Store — Zustand State Management
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 import { create } from "zustand";

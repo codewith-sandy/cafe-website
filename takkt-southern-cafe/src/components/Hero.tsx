@@ -1,6 +1,6 @@
 /* ============================================
    Hero Section — Bold Statement with Premium Feel
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";
@@ -69,7 +69,7 @@ export default function Hero() {
           className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           Specialty coffees, artisanal food, and warm hospitality — nestled in
-          the heart of Chennai. Your new favorite neighborhood cafe awaits.
+          the heart of the city. Your new favorite neighborhood cafe awaits.
         </motion.p>
 
         {/* CTAs */}

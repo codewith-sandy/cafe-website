@@ -1,6 +1,6 @@
 /* ============================================
    ContactForm — Email Integration Placeholder
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";

@@ -1,6 +1,6 @@
 /* ============================================
    About Page — Our Story & Values
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 import type { Metadata } from "next";
@@ -11,7 +11,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Discover the story behind TAKKT Southern Cafe — Chennai's beloved café crafted with passion, warmth, and attention to detail. Learn about our values, our team, and our commitment to hospitality.",
+    "Discover the story behind Brew & Bean Cafe — a beloved café crafted with passion, warmth, and attention to detail. Learn about our values, our team, and our commitment to hospitality.",
 };
 
 const values = [
@@ -30,7 +30,7 @@ const values = [
   {
     title: "Community First",
     description:
-      "TAKKT is more than a cafe — it's a gathering place. We're proud to be the neighborhood's living room, workspace, and celebration venue.",
+      "Brew & Bean is more than a cafe — it's a gathering place. We're proud to be the neighborhood's living room, workspace, and celebration venue.",
     icon: "⌂",
   },
   {
@@ -78,7 +78,7 @@ export default function AboutPage() {
         <div className="relative z-10 text-center px-6">
           <AnimatedSection>
             <p className="text-beige-light font-semibold text-sm uppercase tracking-[0.25em] mb-4">
-              Est. 2020 · Vanagaram, Chennai
+              Est. 2020 · MG Road, Bangalore
             </p>
             <h1 className="font-heading text-5xl md:text-7xl text-white font-bold">
               Our Story
@@ -100,19 +100,19 @@ export default function AboutPage() {
                   Born from a Love of Coffee & Connection
                 </h2>
                 <p className="text-dark-soft/70 leading-relaxed text-lg">
-                  TAKKT Southern Cafe started as a dream — to create a space where the
+                  Brew & Bean Cafe started as a dream — to create a space where the
                   aroma of freshly roasted coffee meets the warmth of Southern hospitality.
                   In 2020, amidst a world that was pulling apart, we opened our doors with
                   a simple promise: to bring people together.
                 </p>
                 <p className="text-dark-soft/70 leading-relaxed">
-                  What began as a small corner cafe on Vanagaram-Ambattur Road has blossomed
-                  into one of Chennai&apos;s most beloved gathering places. Every detail —
+                  What began as a small corner cafe on MG Road has blossomed
+                  into one of the city&apos;s most beloved gathering places. Every detail —
                   from the hand-selected furniture to the 48-hour fermented sourdough dough —
                   reflects our obsession with quality and comfort.
                 </p>
                 <p className="text-dark-soft/70 leading-relaxed">
-                  Today, with over 406 glowing reviews and a 4.4-star rating, TAKKT isn&apos;t
+                  Today, with over 406 glowing reviews and a 4.4-star rating, Brew & Bean isn&apos;t
                   just a cafe. It&apos;s where first dates happen, friendships deepen, ideas
                   are born, and every birthday feels extra special.
                 </p>
@@ -124,7 +124,7 @@ export default function AboutPage() {
                 <div className="relative h-64 rounded-2xl overflow-hidden">
                   <Image
                     src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=350&fit=crop"
-                    alt="Latte art at TAKKT"
+                    alt="Latte art at Brew & Bean"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 50vw, 25vw"
@@ -133,7 +133,7 @@ export default function AboutPage() {
                 <div className="relative h-64 rounded-2xl overflow-hidden mt-8">
                   <Image
                     src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=350&fit=crop"
-                    alt="TAKKT cafe interior"
+                    alt="Brew & Bean cafe interior"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 50vw, 25vw"

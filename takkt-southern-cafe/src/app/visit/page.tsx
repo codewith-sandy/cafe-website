@@ -1,6 +1,6 @@
 /* ============================================
    Visit Us Page — Map, Hours, Contact
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 import type { Metadata } from "next";
@@ -10,7 +10,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Visit Us",
   description:
-    "Find TAKKT Southern Cafe at 98/99, Vanagaram-Ambattur Rd, Chennai 600095. View our hours, get directions, and contact us. Open Monday–Sunday.",
+    "Find Brew & Bean Cafe at 42, MG Road, Bangalore 560001. View our hours, get directions, and contact us. Open Monday–Sunday.",
 };
 
 const businessHours = [
@@ -65,7 +65,7 @@ export default function VisitPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="TAKKT Southern Cafe Location"
+                  title="Brew & Bean Cafe Location"
                 />
               </div>
             </AnimatedSection>
@@ -87,14 +87,14 @@ export default function VisitPage() {
                         Address
                       </h3>
                       <p className="text-dark-soft/70 leading-relaxed">
-                        98/99, Vanagaram-Ambattur Rd,
+                        42, MG Road,
                         <br />
-                        Rajankuppam, Vanagaram,
+                        Heritage Town,
                         <br />
-                        Chennai, Tamil Nadu 600095
+                        Bangalore, Karnataka 560001
                       </p>
                       <a
-                        href="https://maps.google.com/?q=TAKKT+Southern+Cafe+Vanagaram+Chennai"
+                        href="https://maps.google.com/?q=Brew+Bean+Cafe+MG+Road+Bangalore"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-beige font-semibold text-sm mt-3 inline-block hover:text-warm-brown transition-colors"
@@ -120,10 +120,10 @@ export default function VisitPage() {
                         Phone
                       </h3>
                       <a
-                        href="tel:+914412345678"
+                        href="tel:+918012345678"
                         className="text-dark-soft/70 hover:text-espresso transition-colors text-lg"
                       >
-                        +91 44 1234 5678
+                        +91 80 1234 5678
                       </a>
                       <p className="text-dark-soft/50 text-sm mt-1">
                         Call for reservations or takeaway orders
@@ -147,10 +147,10 @@ export default function VisitPage() {
                         Email
                       </h3>
                       <a
-                        href="mailto:hello@takktsoutherncafe.com"
+                        href="mailto:hello@brewandbeancafe.com"
                         className="text-dark-soft/70 hover:text-espresso transition-colors"
                       >
-                        hello@takktsoutherncafe.com
+                        hello@brewandbeancafe.com
                       </a>
                       <p className="text-dark-soft/50 text-sm mt-1">
                         For events, partnerships, and inquiries
@@ -174,12 +174,12 @@ export default function VisitPage() {
                         Follow Us
                       </h3>
                       <a
-                        href="https://instagram.com/takktsoutherncafe"
+                        href="https://instagram.com/brewandbeancafe"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-dark-soft/70 hover:text-espresso transition-colors"
                       >
-                        @takktsoutherncafe
+                        @brewandbeancafe
                       </a>
                       <p className="text-dark-soft/50 text-sm mt-1">
                         Daily specials, behind-the-scenes, and more

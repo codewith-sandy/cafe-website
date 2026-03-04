@@ -1,6 +1,6 @@
 /* ============================================
    ReviewCard — Google-Style Testimonial Card
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";

@@ -1,6 +1,6 @@
 /* ============================================
    Footer — Premium Cafe Footer
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 import Link from "next/link";
@@ -30,25 +30,25 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-beige rounded-full flex items-center justify-center">
-                <span className="text-espresso font-bold text-lg font-heading">T</span>
+                <span className="text-espresso font-bold text-lg font-heading">B</span>
               </div>
               <div className="flex flex-col">
                 <span className="text-cream font-heading font-bold text-xl tracking-tight leading-none">
-                  TAKKT
+                  Brew & Bean
                 </span>
                 <span className="text-beige-light text-[10px] tracking-[0.2em] uppercase font-medium leading-none mt-0.5">
-                  Southern Cafe
+                  Cafe
                 </span>
               </div>
             </div>
             <p className="text-cream/60 text-sm leading-relaxed mb-6">
               Where every cup tells a story and every plate is a celebration.
-              Crafting memorable experiences in the heart of Chennai.
+              Crafting memorable experiences in the heart of the city.
             </p>
             {/* Social Links */}
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/takktsoutherncafe"
+                href="https://instagram.com/brewandbeancafe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-beige/30 transition-colors"
@@ -59,7 +59,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://facebook.com/takktsoutherncafe"
+                href="https://facebook.com/brewandbeancafe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-beige/30 transition-colors"
@@ -70,7 +70,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://g.co/kgs/takktsoutherncafe"
+                href="https://g.co/kgs/brewandbeancafe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-beige/30 transition-colors"
@@ -133,11 +133,11 @@ export default function Footer() {
               <div>
                 <p className="text-cream/40 text-xs uppercase tracking-wider mb-1">Address</p>
                 <p className="text-cream/70">
-                  98/99, Vanagaram-Ambattur Rd,
+                  42, MG Road,
                   <br />
-                  Rajankuppam, Vanagaram,
+                  Heritage Town,
                   <br />
-                  Chennai, Tamil Nadu 600095
+                  Bangalore, Karnataka 560001
                 </p>
               </div>
               <div>
@@ -151,10 +151,10 @@ export default function Footer() {
               <div>
                 <p className="text-cream/40 text-xs uppercase tracking-wider mb-1">Phone</p>
                 <a
-                  href="tel:+914412345678"
+                  href="tel:+918012345678"
                   className="text-beige hover:text-beige-light transition-colors"
                 >
-                  +91 44 1234 5678
+                  +91 80 1234 5678
                 </a>
               </div>
             </div>
@@ -166,7 +166,7 @@ export default function Footer() {
       <div className="border-t border-cream/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-cream/40 text-sm">
-            © {new Date().getFullYear()} TAKKT Southern Cafe. All rights reserved.
+            © {new Date().getFullYear()} Brew & Bean Cafe. All rights reserved.
           </p>
           <div className="flex gap-6 text-cream/40 text-sm">
             <Link href="/visit" className="hover:text-cream/60 transition-colors">

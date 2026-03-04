@@ -1,6 +1,6 @@
 /* ============================================
    ReservationForm — Booking with Validation
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";

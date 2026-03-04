@@ -1,6 +1,6 @@
 /* ============================================
    Menu Data — CMS-Ready JSON Structure
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 export interface MenuItem {

@@ -1,6 +1,6 @@
 /* ============================================
    Menu Page — Categorized with Add to Cart
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";
@@ -127,8 +127,8 @@ export default function MenuPage() {
               Planning an event or need something special? Contact us and our team will
               craft a personalized menu just for you.
             </p>
-            <a href="tel:+914412345678" className="btn-primary">
-              Call Us: +91 44 1234 5678
+            <a href="tel:+918012345678" className="btn-primary">
+              Call Us: +91 80 1234 5678
             </a>
           </AnimatedSection>
         </div>

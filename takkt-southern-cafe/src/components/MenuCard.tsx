@@ -1,6 +1,6 @@
 /* ============================================
    MenuCard — Product Card with Add-to-Cart
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";

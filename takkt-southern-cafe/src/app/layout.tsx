@@ -30,48 +30,44 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "TAKKT Southern Cafe | Best Cafe in Vanagaram, Chennai",
-    template: "%s | TAKKT Southern Cafe",
+    default: "Brew & Bean Cafe | Premium Cafe Demo",
+    template: "%s | Brew & Bean Cafe",
   },
   description:
-    "TAKKT Southern Cafe — Chennai's beloved café in Vanagaram offering specialty coffees, sourdough pizza, Japanese fried chicken, pastries, and warm hospitality. Dine-in, takeaway & delivery. 4.4★ rated.",
+    "Brew & Bean Cafe — a premium café offering specialty coffees, sourdough pizza, Japanese fried chicken, pastries, and warm hospitality. Dine-in, takeaway & delivery. 4.4★ rated.",
   keywords: [
-    "TAKKT Southern Cafe",
-    "best cafe in Vanagaram",
-    "best cafe in Ambattur",
-    "best cafe in Chennai",
-    "specialty coffee Chennai",
-    "sourdough pizza Chennai",
-    "cafe near Vanagaram",
-    "Japanese fried chicken Chennai",
-    "cozy cafe Chennai",
-    "birthday cafe Chennai",
-    "cafe with good ambience Chennai",
+    "Brew & Bean Cafe",
+    "best cafe demo",
+    "specialty coffee",
+    "sourdough pizza",
+    "cozy cafe",
+    "birthday cafe",
+    "cafe with good ambience",
   ],
-  authors: [{ name: "TAKKT Southern Cafe" }],
-  creator: "TAKKT Southern Cafe",
+  authors: [{ name: "Brew & Bean Cafe" }],
+  creator: "Brew & Bean Cafe",
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://takktsoutherncafe.com",
-    siteName: "TAKKT Southern Cafe",
-    title: "TAKKT Southern Cafe | Best Cafe in Vanagaram, Chennai",
+    url: "https://brewandbeancafe.com",
+    siteName: "Brew & Bean Cafe",
+    title: "Brew & Bean Cafe | Premium Cafe Demo",
     description:
-      "Specialty coffees, artisanal food, and warm hospitality in the heart of Chennai. Your new favorite neighborhood cafe.",
+      "Specialty coffees, artisanal food, and warm hospitality. Your new favorite neighborhood cafe.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&h=630&fit=crop",
         width: 1200,
         height: 630,
-        alt: "TAKKT Southern Cafe — Warm, inviting cafe in Chennai",
+        alt: "Brew & Bean Cafe — Warm, inviting cafe",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TAKKT Southern Cafe | Best Cafe in Vanagaram, Chennai",
+    title: "Brew & Bean Cafe | Premium Cafe Demo",
     description:
-      "Specialty coffees, artisanal food, and warm hospitality in the heart of Chennai.",
+      "Specialty coffees, artisanal food, and warm hospitality.",
   },
   robots: {
     index: true,
@@ -93,24 +89,24 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "CafeOrCoffeeShop",
-  name: "TAKKT Southern Cafe",
+  name: "Brew & Bean Cafe",
   image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&h=630&fit=crop",
-  "@id": "https://takktsoutherncafe.com",
-  url: "https://takktsoutherncafe.com",
-  telephone: "+914412345678",
+  "@id": "https://brewandbeancafe.com",
+  url: "https://brewandbeancafe.com",
+  telephone: "+918012345678",
   priceRange: "₹₹",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "98/99, Vanagaram-Ambattur Rd, Rajankuppam",
-    addressLocality: "Vanagaram",
-    addressRegion: "Tamil Nadu",
-    postalCode: "600095",
+    streetAddress: "42, MG Road, Heritage Town",
+    addressLocality: "Bangalore",
+    addressRegion: "Karnataka",
+    postalCode: "560001",
     addressCountry: "IN",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 13.0569,
-    longitude: 80.1524,
+    latitude: 12.9716,
+    longitude: 77.5946,
   },
   openingHoursSpecification: [
     {
@@ -133,11 +129,11 @@ const jsonLd = {
     reviewCount: "406",
     bestRating: "5",
   },
-  hasMenu: "https://takktsoutherncafe.com/menu",
+  hasMenu: "https://brewandbeancafe.com/menu",
   acceptsReservations: "True",
   sameAs: [
-    "https://instagram.com/takktsoutherncafe",
-    "https://facebook.com/takktsoutherncafe",
+    "https://instagram.com/brewandbeancafe",
+    "https://facebook.com/brewandbeancafe",
   ],
 };
 

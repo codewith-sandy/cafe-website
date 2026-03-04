@@ -1,6 +1,6 @@
 /* ============================================
    Order Page — Cart & Checkout UI
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";

@@ -1,6 +1,6 @@
 /* ============================================
    Reservation Page — Table Booking
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 import type { Metadata } from "next";
@@ -11,7 +11,7 @@ import ReservationForm from "@/components/ReservationForm";
 export const metadata: Metadata = {
   title: "Reserve a Table",
   description:
-    "Book your table at TAKKT Southern Cafe, Vanagaram, Chennai. Perfect for date nights, birthdays, small celebrations, and cozy get-togethers. Easy online reservation.",
+    "Book your table at Brew & Bean Cafe. Perfect for date nights, birthdays, small celebrations, and cozy get-togethers. Easy online reservation.",
 };
 
 export default function ReservationPage() {
@@ -97,7 +97,7 @@ export default function ReservationPage() {
                 <div className="relative h-56 rounded-2xl overflow-hidden">
                   <Image
                     src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=300&fit=crop"
-                    alt="Cozy dining at TAKKT"
+                    alt="Cozy dining at Brew & Bean"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 40vw"
@@ -125,12 +125,12 @@ export default function ReservationPage() {
           <AnimatedSection>
             <p className="text-dark-soft/50 text-sm">
               For groups larger than 10 or private events, please call us at{" "}
-              <a href="tel:+914412345678" className="text-beige font-semibold hover:text-warm-brown transition-colors">
-                +91 44 1234 5678
+              <a href="tel:+918012345678" className="text-beige font-semibold hover:text-warm-brown transition-colors">
+                +91 80 1234 5678
               </a>{" "}
               or email{" "}
-              <a href="mailto:events@takktsoutherncafe.com" className="text-beige font-semibold hover:text-warm-brown transition-colors">
-                events@takktsoutherncafe.com
+              <a href="mailto:events@brewandbeancafe.com" className="text-beige font-semibold hover:text-warm-brown transition-colors">
+                events@brewandbeancafe.com
               </a>
             </p>
           </AnimatedSection>

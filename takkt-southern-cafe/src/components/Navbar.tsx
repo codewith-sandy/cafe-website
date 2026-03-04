@@ -1,6 +1,6 @@
 /* ============================================
    Navbar — Sticky Navigation with Smooth Scroll
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";
@@ -52,14 +52,14 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
               <div className="w-10 h-10 bg-espresso rounded-full flex items-center justify-center">
-                <span className="text-cream font-bold text-lg font-heading">T</span>
+                <span className="text-cream font-bold text-lg font-heading">B</span>
               </div>
               <div className="flex flex-col">
                 <span className="text-espresso font-heading font-bold text-xl tracking-tight leading-none">
-                  TAKKT
+                  Brew & Bean
                 </span>
                 <span className="text-warm-brown text-[10px] tracking-[0.2em] uppercase font-medium leading-none mt-0.5">
-                  Southern Cafe
+                  Cafe
                 </span>
               </div>
             </Link>

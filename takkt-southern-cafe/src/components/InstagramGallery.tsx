@@ -1,6 +1,6 @@
 /* ============================================
    Instagram Gallery — Lifestyle Grid
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";
@@ -12,7 +12,7 @@ const instagramPosts = [
   {
     id: 1,
     image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop",
-    alt: "Latte art at TAKKT Cafe",
+    alt: "Latte art at Brew & Bean Cafe",
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ export default function InstagramGallery() {
       {instagramPosts.map((post, index) => (
         <motion.a
           key={post.id}
-          href="https://instagram.com/takktsoutherncafe"
+          href="https://instagram.com/brewandbeancafe"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, scale: 0.9 }}

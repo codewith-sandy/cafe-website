@@ -1,6 +1,6 @@
 /* ============================================
    Reviews Data — Google-Style Testimonials
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 export interface Review {
@@ -41,7 +41,7 @@ export const reviews: Review[] = [
     avatar: "AK",
     rating: 5,
     date: "1 month ago",
-    text: "Best cafe in Vanagaram, hands down. The caramel latte is my go-to, and their fruit tart is a work of art. The place has such a warm, inviting vibe — perfect for working or catching up with friends. Will keep coming back!",
+    text: "Best cafe in the neighborhood, hands down. The caramel latte is my go-to, and their fruit tart is a work of art. The place has such a warm, inviting vibe — perfect for working or catching up with friends. Will keep coming back!",
     source: "Google",
   },
   {
@@ -59,7 +59,7 @@ export const reviews: Review[] = [
     avatar: "KS",
     rating: 5,
     date: "1 week ago",
-    text: "Organized a small celebration here and TAKKT made it so special. The decor, the food, and the hospitality — everything was top-notch. The hot chocolate is divine, and those chocolate croissants are freshly baked perfection!",
+    text: "Organized a small celebration here and this place made it so special. The decor, the food, and the hospitality — everything was top-notch. The hot chocolate is divine, and those chocolate croissants are freshly baked perfection!",
     source: "Google",
   },
   {
@@ -68,7 +68,7 @@ export const reviews: Review[] = [
     avatar: "DN",
     rating: 4,
     date: "2 months ago",
-    text: "Such a hidden gem near Ambattur! The iced cold brew and avocado toast are my favorites. The interiors have a very Instagram-worthy aesthetic. Prices are reasonable for the quality. Would love to see more vegan options on the menu.",
+    text: "Such a hidden gem in the area! The iced cold brew and avocado toast are my favorites. The interiors have a very Instagram-worthy aesthetic. Prices are reasonable for the quality. Would love to see more vegan options on the menu.",
     source: "Google",
   },
   {
@@ -77,7 +77,7 @@ export const reviews: Review[] = [
     avatar: "RM",
     rating: 5,
     date: "3 days ago",
-    text: "Came here for the first time and was blown away! The karaage chicken is the best I've had in Chennai. Loved the rustic interiors and the attention to detail in every dish. The staff remembered my coffee preference on my second visit. That's service!",
+    text: "Came here for the first time and was blown away! The karaage chicken is the best I've had in the city. Loved the rustic interiors and the attention to detail in every dish. The staff remembered my coffee preference on my second visit. That's service!",
     source: "Google",
   },
   {

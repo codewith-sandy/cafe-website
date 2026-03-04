@@ -1,6 +1,6 @@
 /* ============================================
    Cart Sidebar — Slide-out Order Summary
-   TAKKT Southern Cafe
+   Brew & Bean Cafe
    ============================================ */
 
 "use client";
